@@ -88,6 +88,6 @@ function mouseUp(evt){
 	ui.click = true; // Will be true for one frame
 }
 
-
+console.log("wow")
 
 
