@@ -1,22 +1,22 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Template</title>
-    <style>
-      canvas {
-		position: absolute;
-		top: 0px;
-		left: 0px;
-	}
-    </style>
-  </head>
-  <body onload="init()">
-    
-	<canvas id="layer0" width="1280" height="720" onmousemove="getMousePos(event)" onmousedown="mouseDown(event)" onmouseup="mouseUp(event)"></canvas>
 
+<head>
+    <title>Snowday Forecast</title>
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png"/>
+</head>
 
-<script src="js/jquery-3.2.1.min.js"></script>
+<body onload="init()">
+
+<p id="keywords" style="position: absolute; top: -500px; color: white;">Chance of snow day, Is school closed?, Chance of school being closed, Will school be canceled?, Is school cancelled?, Will there be a snow day?, Snow day predictor, Snow day forecast Snow day forecast, Snow day calculator, Predict school closing<p>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+<script src="dependencies/d3.js"></script>
+<script src="dependencies/jquery-3.2.1.min.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/model.js"></script>
+<script src="js/about.js"></script>
 <script src="js/main.js"></script>
-  
-  </body>
 </html>

@@ -1,0 +1,268 @@
+/* Hide Arrows in Text Box */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Text Box Styling */
+input[type="number"] {
+	width: 90%;
+	padding: 10px 18px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	float: left;
+}
+
+/* Background Div */
+.bgDiv {
+	border-radius: 10px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 90vh;
+}
+
+/* Horizontal Div */
+.hDiv {
+	margin: auto;
+	width: 50vw;
+	height: 10vh;
+}
+
+/* Menu Div */
+.menuDiv {
+ 	background-color: #f2f2f2;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+/* Buttons*/
+#goButton {
+	background-color: #2c81d1;
+	color: white;
+	height: 36px;
+	width: 9%;
+	margin-left: 2px;
+	margin-top: 8px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	float: left;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#goButton:hover {
+	background-color: #1c4687;
+}
+
+/* Selectors */
+.selector {
+	background-color: #2c81d1;
+	color: white;
+	height: 40px;
+	width: 80px;
+	border: none;
+	margin-top: 5px;
+	margin-right: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	float: right;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+.selector:hover {
+	background-color: #1c4687;
+}
+
+
+/* Enter Zip */
+#enterZip {
+	margin-top: 30vh;
+	margin-bottom: -10px;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Logo */
+#logo1 {
+	color: #2c81d1;
+	float: left;
+	font-size: 30px;
+	margin-top: 6px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+#logo2 {
+	color: black;
+	float: left;
+	font-size: 30px;
+	margin-top: 6px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#forecastHeader {
+
+}
+
+#forecastDiv {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	margin-top: 50px;
+	background-color: #fafafa;
+	border-radius: 10px;
+}
+
+#forecastTable {
+	width: 60vw;
+	height: 80%;
+	margin: auto;
+	margin-top: 40px;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	border-bottom-left-radius: 10px;
+}
+
+#forecastTable tr {
+	border: 1px solid #ddd;
+}
+
+.infoColumn {
+	text-align: center;
+	margin-top: 0px;
+	padding-left: 10px;
+	vertical-align: center;
+	background-color: #2c81d1;
+	position: relative;
+	border: 1px solid #ddd;
+}
+
+.infoDay {
+	font-size: 1.5vw
+	margin-left: 0px;
+	color: white;
+}
+
+.infoDate {
+	font-size: 1.2vw;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	color: white;
+}
+
+.chartColumn {
+	border: none;
+	text-align: left;
+	margin: 0px;
+	vertical-align: center;
+	border: 1px solid #ddd;
+	width: 25%;
+}
+
+.chartCanvas {
+	margin: auto;
+	display: block;
+}
+
+.textColumn {
+	border: 1px solid #ddd;
+}
+
+.textTable {
+	margin: auto;
+	border: none;
+	border-spacing: 5px;
+	font-size: 2vh;
+}
+
+.normalPercent {
+	color: #3399ff;
+	text-align: left;
+}
+
+.snowdayPercent {
+	color: #6673d9;
+	text-align: left;
+}
+
+.delayPercent {
+	color: #994db3;
+	text-align: left;
+}
+
+.closingPercent {
+	color: #cc268c;
+	text-align: left;
+}
+
+.percentText {
+	text-align: right;
+	padding-right: 8px;
+}
+
+#backButton {
+	background-color: #2c81d1;
+	color: white;
+	height: 40px;
+	width: 80px;
+	margin-top: -95px;
+	margin-right: -15px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	float: right;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#backButton:hover {
+	background-color: #1c4687;
+}
+
+.aboutParagraph{
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#darksky {
+	cursor: pointer;
+	position: absolute;
+	width: 200px;
+	height: 45px;
+	bottom: 20px;
+	right: 40px;
+}
+
+#mediaTable {
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 50px;
+}
+
+img {
+	cursor: pointer;
+}
+
